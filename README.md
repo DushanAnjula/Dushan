@@ -4,7 +4,7 @@ Welcome to my personal website! This site serves as a central hub for my portfol
 
 ## Live Demo
 
-Explore the live version here: [dushananjula.github.io](https://dushananjula.github.io/dushan)
+Explore the live version here: [dushananjula.github.io](https://dushananjula.github.io/Dushan/)
 
 ## Table of Contents
 
