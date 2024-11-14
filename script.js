@@ -1,3 +1,5 @@
+
+//Menu Function
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -6,6 +8,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+//Loader Function
 window.addEventListener('load', function() {
     setTimeout(function() {
         document.getElementById('loader-wrapper').classList.add('fade-out');
@@ -16,6 +19,7 @@ window.addEventListener('load', function() {
     }, 1000);
     });
 
+//Tab Function in About Section
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -30,6 +34,7 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
 
+//Form Submission Function
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwLIlM4JkJZOblYblZuaamw-5cidfTVEVXxw3yPYQR3iesjYkq-rA0oIur3Kvsx_NYYMA/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("submit-msg")

@@ -23,6 +23,8 @@ body{
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+/*---------Loader--------*/
 .loader-wrapper {
   width: 100%;
   height: 100%;
@@ -55,7 +57,7 @@ body{
 .loader-wrapper.fade-out {
   opacity: 0;
 }
-
+/*--Header Section--*/
 .header{
   position: fixed;
   width: 100%;
@@ -139,6 +141,7 @@ section{
   padding: 10rem 15%;
 }
 
+/*---------Home Section--------*/
 .home{
   display: flex;
   align-items: center;
@@ -243,6 +246,7 @@ section{
   color: black;
 }
 
+/*---------About Section--------*/
 .about{
   display: flex;
   justify-content: center;
@@ -341,6 +345,7 @@ section{
   margin: 5rem 0;
 }
 
+/*---------Services Section--------*/
 .services{
   background-color: var(--bg-color);
   color: black;
@@ -401,6 +406,7 @@ section{
   font-size: 8rem;
 }
 
+/*---------Portfolio Section--------*/
 .portfolio{
   background-color: var(--second-bg-color);
 }
@@ -454,6 +460,7 @@ section{
   font-size: 1.6rem;
 }
 
+/*---------Contact Section--------*/
 .contact{
   background-color: var(--bg-color);
   display: flex;
@@ -536,6 +543,7 @@ section{
   margin-left: 5rem;
 }
 
+/*---------Footer Section--------*/
 .footer{
   background-color: var(--second-bg-color);
   padding: 50px 0;
@@ -571,6 +579,7 @@ section{
   font-size: 16px;
 }
 
+/*---------Responsive--------*/
 @media(max-width:1285px){
   #menu-icon{
     display: block;
